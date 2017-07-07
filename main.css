@@ -1,0 +1,64 @@
+#main {
+	margin-top: 3%;
+	height: 97%;
+}
+
+#terminal {
+	float: left;
+	width: 39%;
+	height: 100%;
+}
+
+#text-editor {
+	float: left;
+	width: 61%; 
+	height: 100%;
+}
+
+#menu {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#menu a {
+	cursor: pointer;
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+#menu input {
+
+	float: left;
+	clear: left;
+	width: 50%;
+    border: 0;
+    border-radius:5px;
+    font-family: Sansation,Arial;
+    font-size: 17px;
+}
+
+#popup-login {
+	display: none;
+}
+
+.CodeMirror {
+	height: 100%;
+}
+
+
+body {
+	background-color: black;
+	height: 100%;
+}
+
+html {
+	height: 100%;
+}
